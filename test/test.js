@@ -8,12 +8,12 @@ const { expect } = chai;
 describe('Testing to get expense',()=>{
     it("It should get expense",(done)=>{
         chai.request(app)
-            .get("/getExpense")
+            .get("/getBillAmount")
             .set("Accept","application/json")
             .end((err,res)=>{
                 console.log(res.text);
                 expect(res.status).to.equal(200)
-                expect(res.text).to.equal("Heelo to ecpense")
+                expect(res.text).to.equal("Second build travis")
                 done();
             });
     });

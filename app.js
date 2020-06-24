@@ -1,9 +1,9 @@
 const express = require('express');
 const app = express();
 
-app.get("/getExpense",(req,res)=>{
+app.get("/getBillAmount",(req,res)=>{
     res.status(200);
-   res.send("Heelo to ecpense"); 
+   res.send("Second build travis"); 
 });
 
 app.listen(3000,()=>{
