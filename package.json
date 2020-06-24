@@ -1,0 +1,36 @@
+{
+  "name": "creditbillnotifier",
+  "version": "1.0.0",
+  "description": "To notify credit bill expense",
+  "main": "app.js",
+  "scripts": {
+    "test": "mocha",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sibykarthikeyan/Credit-BillNotifier-NodeJS-GoogleSpreadsheet-Cron.git"
+  },
+  "keywords": [
+    "googleSpreadsheet",
+    "cron",
+    "nodejs",
+    "bill",
+    "notifier"
+  ],
+  "author": "Siby",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sibykarthikeyan/Credit-BillNotifier-NodeJS-GoogleSpreadsheet-Cron/issues"
+  },
+  "homepage": "https://github.com/sibykarthikeyan/Credit-BillNotifier-NodeJS-GoogleSpreadsheet-Cron#readme",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "chai-http": "^4.3.0",
+    "express": "^4.17.1",
+    "google-spreadsheet": "^3.0.11",
+    "nexmo": "^2.7.0",
+    "node-cron": "^2.0.3",
+    "nodemailer": "^6.4.10"
+  }
+}
