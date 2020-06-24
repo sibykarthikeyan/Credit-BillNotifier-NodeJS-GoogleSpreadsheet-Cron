@@ -17,4 +17,15 @@ describe('Testing to get expense',()=>{
                 done();
             });
     });
+    it("It should get test data",(done)=>{
+        chai.request(app)
+            .get("/test2")
+            .set("Accept","application/json")
+            .end((err,res)=>{
+                console.log(res.text);
+                expect(res.status).to.equal(200)
+                expect(res.text).to.equal("test done")
+                done();
+            });
+    });
 });
