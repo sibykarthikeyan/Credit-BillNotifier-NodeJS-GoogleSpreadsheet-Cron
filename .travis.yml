@@ -1,9 +1,0 @@
-language: node_js
-node_js:
-    - "stable"
-cache:
-    diectories:
-        - "node_modules"
-install:
-    - npm install
-    
