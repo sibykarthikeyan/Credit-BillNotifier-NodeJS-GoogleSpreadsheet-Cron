@@ -31,6 +31,7 @@
     "google-spreadsheet": "^3.0.11",
     "helmet": "^3.23.3",
     "mocha": "^8.0.1",
+    "mysql": "^2.18.1",
     "node-cron": "^2.0.3",
     "nodemailer": "^6.4.10",
     "websocket": "^1.0.31"
